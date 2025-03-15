@@ -44,7 +44,7 @@ button{
 .content h2{
     font-size: 16px;
     font-weight: bold;
-    color: hsl(47, 88%, 63%);
+    color: black;
     margin:15px 18px 5px;
 }
 .content h4{
@@ -83,4 +83,9 @@ button{
     margin-left:16px
    }
 } 
-    
+@media screen and (max-width:1024px){
+    .container{
+        width:280px;
+        height:390px;
+        margin-top:70px;
+    }
