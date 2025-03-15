@@ -89,3 +89,9 @@ button{
         height:390px;
         margin-top:70px;
     }
+    @media screen and (max-width:2560px){
+        .container{
+            width:530px;
+            height:650px;
+        }
+        
